@@ -1,5 +1,5 @@
 CREATE TABLE `people` (
-	`id` INT PRIMARY KEY AUTO_INCREMENT,
+    `id` INT PRIMARY KEY AUTO_INCREMENT,
     `name` VARCHAR(200) NOT NULL,
     `picture` BLOB,
     `height` DECIMAL(10, 2),
